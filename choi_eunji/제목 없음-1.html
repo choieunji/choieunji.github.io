@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body {background-color:#a5f; color:#788}
+    h1 {color:#444; text-decoration: underline;}
+    p {color:#773; border-bottom:1px dotted #aff;}
+    #vs {color:#f40;}
+  </style>
+</head>
+<body>
+  <h1>웹디자인</h1>
+   <p id="vs">웹디자인 &amp; 웹퍼블리셔</p>
+   <p> 아사 &gt; 배고픔 &gt; 동대문 </p>
+  <ol>
+    <li>공부</li>
+    <li>운동</li>
+    <li>알바</li>
+  </ol> 
+  <button type="button" id="btn">Click</button>
+  <script>
+   var body = document.body;
+   var btn = body.querySelector('#btn');
+   btn.addEventListener('click', color);
+  
+    funtion color() {
+      body.style.backgroundColor = '#646';
+    };
+  </script>
+</body>
+</html>
